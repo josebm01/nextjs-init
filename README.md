@@ -26,5 +26,5 @@ docker build -t name_tag .
 
 ## Run image docker 
 ```
-docker container run -p 3000:3000 name_tag
+docker container run -dp 3000:3000 name_tag
 ```
